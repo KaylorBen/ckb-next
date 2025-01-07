@@ -90,7 +90,7 @@
 #define P_K70_MK2SE          0x1b6b
 #define P_K70_MK2LP          0x1b55
 #define P_K70_TKL            0x1b73
-#define P_K70_CORE_RGB       0x2b0a
+#define P_K70_CORE_RGB       0x1bff
 #define IS_K70(kb) ((kb)->vendor == V_CORSAIR && ((kb)->product == P_K70 || (kb)->product == P_K70_LEGACY || (kb)->product == P_K70_RFIRE || (kb)->product == P_K70_RFIRE_NRGB || (kb)->product == P_K70_LUX || (kb)->product == P_K70_LUX_NRGB || (kb)->product == P_K70_MK2 || (kb)->product == P_K70_MK2SE || (kb)->product == P_K70_MK2LP || (kb)->product == P_K70_TKL || (kb)->product == P_K70_CORE_RGB))
 
 // The Legacy K90 behaves like a Legacy K95.
